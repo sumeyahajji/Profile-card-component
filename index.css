@@ -1,81 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:ital,wght@1,700&family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&family=Happy+Monkey&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans:ital,wght@0,400;1,300&family=Outfit:wght@300;400;600&family=Poppins:wght@500&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@1,100&family=Space+Grotesk:wght@500&family=Urbanist:wght@100&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Kumbh Sans', sans-serif; 
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:ital,wght@1,700&family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&family=Happy+Monkey&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans:ital,wght@0,400;1,300&family=Outfit:wght@300;400;600&family=Poppins:wght@500&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@1,100&family=Space+Grotesk:wght@500&family=Urbanist:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
 }
-:root{
-    --Dark-cyan: hsl(185, 75%, 39%);
-    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
-    --Dark-grayish-blue: hsl(227, 10%, 46%) ;
-    --Dark-gray: hsl(0, 0%, 59%);
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
 }
-body{
-    background-image: url('images/bg-pattern-top.svg'), url(images/bg-pattern-bottom.svg);
-    background-size:400px 400px;
-    background-position:left top;
-    background-color: var(--Dark-cyan);
-    background-repeat: no-repeat;
-    
+body {
+  background-color: var(--Dark-cyan);
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-position: left top,right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+
 }
-.images{
-    margin-bottom: -43px;
-    border: none;
-    border-radius: 10px 10px 0px 0px;
+.images {
+  margin-bottom: -43px;
+  border: none;
+  border-radius: 10px 10px 0px 0px;
 }
-.avatar{
-   display: block;
-   
-   margin-left: 7rem;
-   
+.avatar {
+  display: block;
+
+  margin-left: 7rem;
 }
-.avatar img{
-    border: none;
-    width: 80px;
-    border-radius: 50%;
-    margin-left: 2rem;
-    
+.avatar img {
+  border: none;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 2rem;
 }
-.avatar h1{
-    color: var(--Very-dark-desaturated-blue);
-    font-size: 18px;
-    margin-left: 0.5rem;
-    padding-top: 0.5rem;
+.avatar h1 {
+  color: var(--Very-dark-desaturated-blue);
+  font-size: 18px;
+  margin-left: 0.5rem;
+  padding-top: 0.5rem;
 }
-span{
-    color: var(--Dark-gray);
+span {
+  color: var(--Dark-gray);
 }
-.avatar p{
-    color: var(--Dark-gray);
-    margin-left: 2.9rem;
+.avatar p {
+  color: var(--Dark-gray);
+  margin-left: 2.9rem;
 }
-.container{
-   background-color:white;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 21.9rem;
-   height: 25rem;
-   margin-top: 10rem;
-   border: none;
-   border-radius: 10px;
+.container {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 21.9rem;
+  height: 25rem;
+  margin-top: 10rem;
+  border: none;
+  border-radius: 10px;
 }
 
-.rate{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--Dark-gray);
-    line-height: 2rem;
+.rate {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--Dark-gray);
+  line-height: 2rem;
 }
-.rate h1{
-    color: var(--Very-dark-desaturated-blue);
-    font-size: 25px;
-    
+.rate h1 {
+  color: var(--Very-dark-desaturated-blue);
+  font-size: 25px;
 }
-.rate p{
-    color: var(--Dark-gray);
-
+.rate p {
+  color: var(--Dark-gray);
 }
